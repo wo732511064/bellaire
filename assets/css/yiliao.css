@@ -1,0 +1,123 @@
+
+.neirong{
+	
+	margin: 0 auto;
+	height: auto;
+}
+.datu{
+	position:relative;
+	width: 100%;
+	margin: 0 auto;
+}
+.datu img{
+	width: 100%;
+	max-height: 300px;
+	
+}
+.smwz{
+	position:absolute  ;
+	text-align: center;
+	width: 100%;
+	margin-top:9% ;
+	z-index: 1;
+}
+.smwz h1{
+	color: #fff;
+	vertical-align: middle;
+	font-size: 300%;
+	font-weight: bold;
+	text-shadow: #B3B3B3 0 1px 0;	
+}
+.neirong .wenzi{
+	text-align: center;
+	width: 80%;
+	font-size: medium;
+	margin: 0px auto;
+	margin-top: 80px;
+}
+.neirong .wenzi1{
+	text-align: center;
+	width: 80%;
+	size: a3;
+	margin: 0px auto;
+	margin-top: 40px;
+}
+.neirong .fengexian{
+	width: 100%;
+	height: 1px;
+    background: -webkit-linear-gradient(90deg, white, gray,white); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(90deg, white, gray,white); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(90deg, white, gray,white); /* Firefox 3.6 - 15 */
+    background: linear-gradient(90deg, white, gray,white); /* 标准的语法（必须放在最后） */
+	margin: 20px auto;
+	
+}
+.neirong .shebei{
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	font-size:20px ;
+}
+.neirong .shebei img{
+	max-width: 100%;
+	max-height: 400px;
+}
+.neirong .yishi{
+	max-width: 50%;
+	margin:0 auto;
+}
+.neirong .yishi img{
+	width: 100%;
+	margin:10px auto;
+}
+.gzjh{
+	max-width: 30%;
+	margin:50px auto ;
+	text-align: center;
+}
+.jq22-demo{ text-align: center; margin-top: 30px; }
+		.jq22-demo a{ padding-left: 20px; padding-right: 20px; }
+.gzjh img{
+	max-width: 100%;
+	margin: 0 auto;
+	max-height: 300px;
+}
+.gzjh .img1{
+	width: 50%;
+	margin: 0 auto;
+}
+.gzwz{
+	text-align: center;
+	width: 50%;
+	font-size:medium ;
+	margin:0 auto ;
+}
+.gzwz p{
+	
+	font-size:medium ;
+	color: #000000;
+}
+.gzwz1{
+	font-size:large;
+	font-weight: bold;
+	margin-bottom:25px ;
+}
+
+@media (max-width: 730px) {
+	.neirong .yishi{
+	max-width: 80%;
+	margin:0 auto;
+	}
+	.neirong .wenzi{
+	width: 80%;	
+		}
+	.gzwz{
+		width: 80%;
+	}
+	.gzjh{
+	max-width: 80%;}
+}
+
+
+
+
